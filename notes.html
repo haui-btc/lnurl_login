@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="notes-container">
+        <h1>Add a Note</h1>
+        <textarea id="note" rows="5" cols="40" placeholder="Write your note here..."></textarea>
+        <button id="save">Save Note</button>
+        <div id="message"></div>
+        <!-- Add this to your notes.html file inside the notes-container div -->
+        <div class="notes-list">
+            <h2>Saved Notes</h2>
+            <ul id="notes"></ul>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="notes.js"></script>
+</body>
+</html>
